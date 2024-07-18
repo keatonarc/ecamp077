@@ -1,0 +1,106 @@
+
+.rosado{
+    background-color: palevioletred;
+}
+.verde{
+    background-color: greenyellow;
+}
+.azul{
+    background-color: blue;
+}
+.rojo{
+    background-color: red;
+}
+.morado{
+    background-color: blueviolet;
+}
+.gris{
+    background-color: gray;
+}
+
+
+
+/*
+    Pantalla menor 500px
+*/
+
+@media(max-width: 500px){
+    .rosado{
+        padding: 20%;
+    }
+    .verde{
+        padding: 20%;
+    }
+    .azul{
+        padding: 10%;
+    }
+    .gris{
+        padding: 25%;
+    }
+    .rojo{
+        display: none;
+    }
+    .morado{
+        display: none;
+    }
+}
+
+/*
+    Pantalla 501 a 750px
+*/
+
+@media(min-width:501px) and (max-width:750px){
+    .rosado{
+        padding: 16%;
+        
+    }
+    .verde{
+        padding: 16.333%;
+        display: inline-block;
+        margin-left: 0.33%;
+    }
+    .azul{
+        padding: 16.333%;
+        display: inline-block;
+    }
+    .rojo{
+        padding: 16.333%;
+        display: inline-block;
+    }
+    .morado{
+        padding: 25% 30%;
+        display: inline-block;
+    }
+    .gris{
+        padding: 25% 19.5%;
+        display: inline-block;
+    }
+}
+
+/*
+    Pantalla sobre 751px
+*/
+
+@media(min-width:750px){
+    .rosado{
+        padding: 2%;
+    }
+    .verde{
+        padding: 10%;
+    }
+    .azul{
+        padding: 15%;
+    }
+    .rojo{
+        padding: 10% 16.66%;
+        float: left;
+    }
+    .morado{
+        padding: 10% 16.66%;
+        float: left;
+    }
+    .gris{
+        padding: 10% 16.66%;
+        float: left;
+    }
+}

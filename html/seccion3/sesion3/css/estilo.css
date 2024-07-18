@@ -1,0 +1,62 @@
+body{
+    background:#A2A63C;
+    }
+    
+    h2{
+        color: darkgreen;
+    }
+    
+    section {
+        background-image: url(../img/luciernagas2.jpg);
+    }
+    
+    /* Fuente google */
+    .arsenal-sc-regular {
+        font-family: "Arsenal SC", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .arsenal-sc-bold {
+        font-family: "Arsenal SC", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .arsenal-sc-regular-italic {
+        font-family: "Arsenal SC", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .arsenal-sc-bold-italic {
+        font-family: "Arsenal SC", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+    
+      .fondo-con-patrones {
+        background-image:url(../img/patrones.jpg)
+      }
+      
+    
+      /* definicion de fuentes */
+     .fuente_subtitulo{
+        color: #F2B90F;
+        font-size: 16;
+      }
+      .fuente-titulo{
+        color:#D9910B
+    }
+      #contenedor {
+    background-image: url(../img/malinche.jpeg);
+    }
+      #contenedor h2{
+        color: #8AA1BF;
+      }
+      #contenedor h3{
+        color: #8C5F27;
+      }
+      #contenedor ul li{
+        color: #465902
+      }

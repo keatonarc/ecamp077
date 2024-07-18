@@ -1,0 +1,45 @@
+#tabla{
+    outline-style: outset;
+    outline-color: rgba(235, 235, 235, 0.429);
+}
+
+#red{
+    background-color: red;
+}
+#brown{
+    background-color: brown;
+}
+#orange{
+    background-color: orange;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+#pink{
+    background-color: pink;
+}
+#purple{
+    background-color: purple;
+}
+#green{
+    background-color: green;
+}
+#grey{
+    background-color: grey;
+}
+#violet{
+    background-color: violet;
+}
+#yellow{
+    background-color: yellow;
+}
+#turquoise{
+    background-color: turquoise;
+}
+#black{
+    background-color: black;
+    color: white;
+}

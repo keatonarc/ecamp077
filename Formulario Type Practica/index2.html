@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <style>
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+    </style>
+
+    <main>
+      <h1>Formulario Pediatria - 2024</h1>
+
+      <section>
+        <h2>Informacion del Paciente</h2>
+
+        <fieldset>
+          <label for="name">Nombre</label>
+          <input type="text" placeholder="Ingresa tu nombre" />
+          <input type="text" placeholder="Ingresa tu apellido" />
+        </fieldset>
+
+        <fieldset>
+          <label for="birthday">Fecha de Nacimiento</label>
+          <input type="date" />
+        </fieldset>
+        <fieldset style="display: flex; flex-direction: row">
+          <div>
+            <label for="gender">Genero</label>
+            <select name="gender" id="gender">
+              <option value="male">Masculino</option>
+              <option value="female">Femenino</option>
+            </select>
+          </div>
+          <div>
+            <label for="fono">Numero de Telefono</label>
+            <input type="number" placeholder="Ingresa tu numero de telefono" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <label for="address">Dirección</label>
+          <input type="text" placeholder="Ingresa tu dirección" />
+        </fieldset>
+
+        <fieldset>
+          <label for="city">Ciudad</label>
+          <input type="text" placeholder="Ingresa tu ciudad" />
+        </fieldset>
+        <fieldset>
+          <label for="fonasa">Fonasa</label>
+          <input type="radio" />
+          <label for="isapre">Isapre</label>
+          <input type="radio" />
+        </fieldset>
+
+        <fieldset style="display: flex; flex-direction: column">
+          <label for="details">Detalles Paciente</label>
+          <textarea name="details" id="details"></textarea>
+        </fieldset>
+
+        <button>Enviar</button>
+      </section>
+    </main>
+  </body>
+</html>
+</body>
+</html>

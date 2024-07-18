@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 1px rgb(56, 195, 67) solid;
+}
+
+div{
+    display: inline-block;
+}
+
+p{
+    margin: 1px 0px;
+    width: 80px;
+}
+
+.encabezado{
+    width: 80px;
+    display: inline-block;
+}
+
+#red{
+    background-color: red;
+}
+#brown{
+    background-color: brown;
+    padding: 10px 0px;
+}
+#orange{
+    background-color: orange;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+#pink{
+    background-color: pink;
+}
+#purple{
+    background-color: purple;
+}
