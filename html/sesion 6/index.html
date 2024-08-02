@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>formulario boostrap</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded">
+            <form action="/html/sesion 6/registro_completo.html" method="post"class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-md-4">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" value="Matias" required>
+                
+              
+                  <div class="valid-feedback">¡Campo válido!</div>
+                  <div class="invalid-feedback">Debe completar los datos.</div>
+                </div>
+
+                <div class="col-md-4">
+                  <label for="apellido" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="apellido" value="Aguilera" required>
+               
+                  <div class="valid-feedback">¡Campo válido!</div>
+                  <div class="invalid-feedback">Debe completar los datos.</div>
+                </div> 
+
+                <div class="col-md-4">
+                  <label for="apellido" class="form-label">Nombre de usuario</label>
+                  <div class="input-group">
+                    <span for="Correo Electronico" class="input-group-text">@</span>
+                    <input type="text" class="form-control col-md-4" id="email" value="" required placeholder="@matiasAg" >
+                    
+                    <div class="valid-feedback">¡Campo válido!</div>
+                    <div class="invalid-feedback">Debe Ingresar un Usuario Valido</div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <label for="Ciudad" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="Ciudad" value="Chile" required>
+
+                  <div class="valid-feedback">¡Campo válido!</div>
+                  <div class="invalid-feedback">Debe completar los datos.</div>
+                </div> 
+                                
+                <div class="col-md-3">
+                     <label for="pais" class="form-label">Motivo</label>
+                    <select class="form-select" id="pais" required>
+                    <option>Deposito</option>
+                    <option>Giro</option>
+                    <option>Consulta de Saldo</option>
+                    </select>
+
+                    <div class="valid-feedback">¡Campo válido!</div>
+                    <div class="invalid-feedback">Debe completar los datos.</div>
+                </div> 
+                  
+                <div>
+                  <span>¿Desea ver la respuerta en la pantalla?</span>
+                  <br>
+                  <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+                  <label class="form-check-label" for="check1">Si</label>
+                </div>                  
+              </div>
+              <br>
+              <button class="btn btn-primary fw-bold" type="submit" value="submit">Solicitar</button> 
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>      
+    (function () {
+      'use strict'
+      // Obtener todos los formularios a los que queremos aplicar estilos de validación de Bootstrap personalizados
+      var forms = document.querySelectorAll('.needs-validation')
+      //Recorremos los forms y evitamos en envío sin validacion
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {            
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }else{
+              alert('FORM VALIDADO')
+            }
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+    </script>    
+  </body>
+</html>
