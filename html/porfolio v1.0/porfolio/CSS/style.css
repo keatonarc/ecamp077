@@ -1,0 +1,163 @@
+.body-color-dark-1{
+    background-color: #112731;
+}
+
+.nav-color-dark-1{
+    background-color: #213944;
+    color: white !important;
+}
+
+.letter-azure{
+    color: azure !important;
+}
+
+.letter-sub-title-1{
+    color: #02d4ad !important;
+}
+
+.letter-title-1{
+    color: #f5f5f5 !important;
+}
+
+.letter-p-1{
+    color: #02d4ad !important;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-end; /* Posiciona el contenido hijo al final del contenedor */
+    align-items: center; /* Centra el contenido hijo verticalmente */
+    width: 200px; /* Ajusta el tamaño según tus necesidades */
+    height: 200px; /* Ajusta el tamaño según tus necesidades */
+    overflow: hidden;
+    border-radius: 50%; /* Hace que el contenedor tenga bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra alrededor del contenedor */
+    border: 5px solid white; /* Opcional: borde blanco para mayor contraste */
+  }
+
+.image-container img {
+    width: 100%; /* Asegúrate de que la imagen ocupe todo el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.image-icon{
+    width: 35px; /* Ajusta el tamaño según tus necesidades */
+    height:35px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%; /* Hace que el contenedor tenga bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra alrededor del contenedor */
+    border: 1px solid #02d4ad ; /* Opcional: borde blanco para mayor contraste */
+}
+
+.btn-custom {
+      display: inline-flex;
+      align-items: center;
+      font-weight: 400;
+      color: #fff;
+      text-align: center;
+      vertical-align: middle;
+      user-select: none;
+      background-color: #007bff;
+      border: 1px solid #007bff;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: 0.25rem;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom img {
+    margin-right: 0.5rem;
+    width: 20px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 20px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+.btn-custom:hover {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #004085;
+}
+.card-1{
+    background-color: #112731 !important;
+    color: #fff !important;
+    border: 1px solid #475860 !important;
+}
+.tag{
+    text-decoration: none !important;
+}
+.text-bg-purple-1 {
+    color: #fff !important;
+    background-color: #9593c9 !important;
+}
+.text-bg-purple-2 {
+    color: #fff !important;
+    background-color: #a44aff !important;
+}
+.text-bg-red-1 {
+    color: #fff !important;
+    background-color: #e33636 !important;
+}
+.text-bg-red-2 {
+    color: #fff !important;
+    background-color: #ff4f00 !important;
+}
+.text-bg-red-3 {
+    color: #fff !important;
+    background-color: #bd0000 !important;
+}
+.text-bg-red-4 {
+    color: #fff !important;
+    background-color: #ff3004 !important;
+}
+.text-bg-deep-blue-1 {
+    color: #fff !important;
+    background-color: #46729c !important;
+}
+.text-bg-deep-blue-2{
+    color: #ffa442 !important;
+    background-color: #46729c !important;
+}
+.text-bg-green-1 {
+    color: #fff !important;
+    background-color: #469c4c !important;
+}
+.text-bg-yellow-1 {
+    color: #4e4d4d !important;
+    background-color: #ffe800 !important;
+}
+.text-bg-blue-yellow-1 {
+    color: #ffe40e !important;
+    background-color: #097ebf !important;
+}
+.text-bg-orange-1 {
+    color: #ffffff !important;
+    background-color: #e7830c !important;
+}
+.text-bg-blue-1 {
+    color: #fff !important;
+    background-color: #2b66e3 !important;
+}
+.text-bg-sky-1 {
+    color: #fff !important;
+    background-color: #00a4ff !important;
+}
+.img-card{
+    height: 250px !important;
+    width:  100% !important;
+}
+.height-body-1{
+    height: 210px !important;
+}
+
+.card-text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8; /* Adjust the number of lines as needed */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: calc(1.2em * 8); /* Adjust line height and number of lines */
+    line-height: 1.2em; 
+}
+    
+
+
+
+    
+
