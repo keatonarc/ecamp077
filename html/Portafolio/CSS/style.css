@@ -2,6 +2,9 @@
     outline: 1px red solid;
 }
 
+#fondo{
+    background-color: rgb(50, 55, 65);
+}
 
 /*
     Media query. Pantallas menores a 990 px
@@ -34,22 +37,48 @@
     justify-content: space-between;
 }
 
-.container{
+.presentacion{
     margin-top: 62px;
 }
 
-ul {
+.sin {
     list-style-type: none;
 }
   
-li {
-    background-color: #F6E3CA;
-    float: left;
-    margin-right: 10px;
-    padding: 0 4px;
+.iconos {
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    width: 40px;
+    margin: 0px 15px;
 }
   
+.habilidades{
+    background-color: rgb(29, 31, 37);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.img-2{
+    width: 100%;
+    border-radius: 25%;
+}
 
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+.card-text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8; /* Adjust the number of lines as needed */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: calc(1.2em * 8); /* Adjust line height and number of lines */
+    line-height: 1.2em; 
+}
+   
 
 /*
     Pantalla Extra Larga (>=1200px)
