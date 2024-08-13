@@ -1,5 +1,12 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #Navegacion{
     background-color: #051B54;
+}
+.navbar-brand{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #inicio{
@@ -7,3 +14,24 @@
     border-radius:50px;
 }
 
+#promocional{
+    background-color: #62DAD3;
+}
+
+#image{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+#formulario{
+    box-shadow:
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.link{
+    text-decoration: none;
+    color: #051B54;
+    text-align: center;
+}
