@@ -27,6 +27,11 @@ nav{
   justify-content: space-between;
 }
 
+.habilidades{
+  display: flex;
+  justify-content: center;
+}
+
 .presentacion{
   margin-top: 70px;
 }
